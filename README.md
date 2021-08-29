@@ -21,7 +21,23 @@ The application uses the Github public API to show the results.
 <div align="center">
   
 https://user-images.githubusercontent.com/76992016/131240107-082364fa-6e6a-40c9-9e01-60451fee7801.mp4
+
+### Screenshots
+|Initial screen (pt-br)|Invalid user search (pt-br)|
+|-|-|
+|![](screenshots/initial.png)|![](screenshots/invalid-user-search.png)|
+
+|Valid user (pt-br)|
+|-|
+|![](screenshots/pt-br-user-search.png)|
   
+|Valid user - landscape (en-us)|
+|-|
+|![](screenshots/landscape-user-search.png)|
+
+|Valid user - portrait (en-us)|
+|-|
+|![](screenshots/en-us-user-search.png)|
 
 </div>
 
