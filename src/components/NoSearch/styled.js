@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { PersonQuestionMark, Search } from '@styled-icons/fluentui-system-filled';
+import { PeopleSearch, Search } from '@styled-icons/fluentui-system-filled';
 
 export const Wrapper = styled.div`
     display: flex;
@@ -16,7 +16,7 @@ export const MessageWrapper = styled(Wrapper)`
     max-width: 500px;
 `;
 
-export const UnknowUser = styled(PersonQuestionMark)`
+export const UnknowUser = styled(PeopleSearch)`
     height: 200px;
 `;
 

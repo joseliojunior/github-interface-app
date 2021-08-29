@@ -9,8 +9,13 @@ const Header = () => {
     const [usernameToSearch, setUsernameToSearch] = useState();
 
     const submitGetUser = () => {
-        if (!usernameToSearch) return;
+        if (!usernameToSearch) return getUser(null);
         return getUser(usernameToSearch); 
+    };
+
+    const searchHandler = ev => {
+        const text = ev.target.value?.trim().replace(/\s+/g, '').toLowerCase();
+        setUsernameToSearch(text);
     };
 
     const keydownHandler = ev => (ev.key === 'Enter' && submitGetUser());
@@ -21,7 +26,7 @@ const Header = () => {
                 <input 
                     type="text"
                     placeholder={translation(strings.header.inputPlaceholder)}
-                    onChange={(event) => setUsernameToSearch(event.target.value)}
+                    onChange={searchHandler}
                     onKeyDown={keydownHandler} />
                 <button 
                     type="submit"

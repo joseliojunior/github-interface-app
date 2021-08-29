@@ -12,13 +12,18 @@ export const strings = {
             repositories: ['Repositories', 'Repositórios'],
         }
     },
+    repositories: {
+        repositoriesTab: ['Repositories', 'Repositórios'],
+        starredTab: ['Starred', 'Com estrela']
+    },
     noSearch: {
         msgPart1: [
-            `Type a Github username on the search bar above and then click`,
-            `Digite um nome de usuário do Github na barra de pesquisa acima e em seguida clique em`
+            'Type a Github username on the search bar above and then click',
+            'Digite um nome de usuário do Github na barra de pesquisa acima e em seguida clique em'
         ],
-        msgPart2: [`or press`, `ou pressione`]
-    }
+        msgPart2: ['or press', 'ou pressione']
+    },
+    invalidSearch: ['User not found. Try again.', 'Usuário não encontrado. Tente novamente.']
 };
 
 const translation = (key) => {

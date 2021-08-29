@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Profile, Repositories, NoSearch } from './components';
+import { Layout, Profile, Repositories, NoSearch, InvalidSearch } from './components';
 import useGithub from './hooks/GithubHooks';
 
 const App = () => {
@@ -16,7 +16,12 @@ const App = () => {
                     <Profile/>
                     <Repositories/>
                 </>)}
-            </>) : (<NoSearch />)}
+            </>) : githubState.isValidUser ? (
+                <NoSearch />
+                ) : (
+                <InvalidSearch/>
+            )
+            }
         </Layout>
     )
 };

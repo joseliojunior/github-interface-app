@@ -4,7 +4,6 @@ import * as $ from './styled';
 import translation, { strings } from '../../services/translation';
 
 export const Profile = () => {
-
     const { githubState } = useGithub();
     const { labels } = strings.header;
 
