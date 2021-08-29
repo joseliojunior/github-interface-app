@@ -18,8 +18,13 @@ The application uses the Github public API to show the results.
 
 ### Preview
 
+<div align="center">
+  
+https://user-images.githubusercontent.com/76992016/131240107-082364fa-6e6a-40c9-9e01-60451fee7801.mp4
+  
 
----
+</div>
+
 
 ### Libraries used
 
