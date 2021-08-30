@@ -43,11 +43,11 @@ export const SearchBar = styled(Wrapper)`
         cursor: pointer;
     }
 
-    button[aria-label] {
+    [aria-label] {
         position: relative;
     }
 
-    button[aria-label]::after {
+    [aria-label]::after {
         content: attr(aria-label);
         opacity: 0;
         position: absolute;
@@ -63,7 +63,7 @@ export const SearchBar = styled(Wrapper)`
         transition: all .4s ease .2s;
     }
     
-    button[aria-label]:hover::after {
+    [aria-label]:hover::after {
         transition: all .4s ease 1s;
         opacity: 100;
     }

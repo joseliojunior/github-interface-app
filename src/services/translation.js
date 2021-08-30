@@ -1,4 +1,8 @@
 export const strings = {
+    title: {
+        ariaLabel: ['Star this project on GitHub', 'Dê uma estrela a este projeto no GitHub'],
+        alt: ['Icon to GitHub repository', 'Ícone para o repositório no GitHub']
+    },
     header: {
         inputPlaceholder: ['e. g.: github', 'ex: github'],
         btnTitle: ['Search', 'Buscar'],
@@ -18,8 +22,8 @@ export const strings = {
     },
     noSearch: {
         msgPart1: [
-            'Type a Github username on the search bar above and then click',
-            'Digite um nome de usuário do Github na barra de pesquisa acima e em seguida clique em'
+            'Type a GitHub username on the search bar above and then click',
+            'Digite um nome de usuário do GitHub na barra de pesquisa acima e em seguida clique em'
         ],
         msgPart2: ['or press', 'ou pressione']
     },
